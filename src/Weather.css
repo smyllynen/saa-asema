@@ -1,0 +1,28 @@
+.Weather input[type="text"] {
+  border: 0;
+  background: #bdbdbe;
+  border-radius: 18px 0 0 18px;
+  height: 36px;
+  width: 263px;
+  padding: 0 26px;
+  text-align: center;
+}
+
+.Weather input[type=submit] {
+  background: #33c8e9;
+  color: white;
+  border: 0;
+  border-radius: 0 18px 18px 0;
+  height: 36px;
+  font-size: 13px;
+  width: 70px;
+}
+
+.Weather input[type=submit]:hover {
+  opacity: .8;
+}
+
+.Weather input[type=submit] {
+  cursor: pointer;
+  transition: .3s;
+}

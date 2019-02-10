@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import './Weather.css';
 
-class Form extends Component {
+class Weather extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -23,17 +24,12 @@ class Form extends Component {
 
   render() {
     return (
-      <form onSubmit={this.getWeather}>
+      <form className="Weather" onSubmit={this.getWeather}>
         <input type="text" name="city" />
         <input type="submit" value="Submit" />
-        <p id="weather"></p>
-        <p>
-          {this.state.temperature}
-          {this.state.weather}
-        </p>
       </form>
     )
   }
 }
 
-export default Form;
+export default Weather;
